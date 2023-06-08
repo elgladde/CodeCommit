@@ -9,13 +9,13 @@ phases:
     commands:
       - echo Build started on 'date'
       - echo Building the Docker image...
-      - docker build -t afriendflask .
-      - docker tag afriendflask:latest public.ecr.aws/d9c7x7c8/afriendflask:latest
+      - docker build -t egladdenflask .
+      - docker tag egladdenflask:latest public.ecr.aws/d9c7x7c8/egladdenflask:latest
   post_build:
     commands:
       - echo Build completed on 'date'
       - echo Pushing the Docker image...
-      - docker push public.ecr.aws/d9c7x7c8/afriendflask:latest
+      - docker push public.ecr.aws/d9c7x7c8/egladdenflask:latest
 
 artifacts:
     files: imagedefinitions.json

@@ -1,6 +1,6 @@
 [
     {
-        "name": "afriend-docker-container",
-        "imageUri": "public.ecr.aws/d9c7x7c8/afriendflask:latest"
+        "name": "egladden-docker-container",
+        "imageUri": "public.ecr.aws/d9c7x7c8/egladdenflask:latest"
     }
 ]
