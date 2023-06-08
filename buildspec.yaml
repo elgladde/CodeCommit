@@ -17,5 +17,5 @@ phases:
       - echo Pushing the Docker image...
       - docker push public.ecr.aws/d9c7x7c8/afriendflask:latest
 
-  artifacts:
-      files: imagedefinitions.json
+artifacts:
+    files: imagedefinitions.json
