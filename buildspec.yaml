@@ -9,13 +9,13 @@ build:
   commands:
     echo Build started on date
     echo Building the Docker image...
-    docker build -t <NAME OF YOUR IMAGE FILE> .
-    docker tag <NAME OF YOUR IMAGE FILE>:latest public.ecr.aws/q9r3s5p8/<NAME OF YOUR IMAGE FILE>:latest
+    docker build -t afriendflask .
+    docker tag afriendflask:latest public.ecr.aws/q9r3s5p8/afriendflask:latest
 post_build:
   commands:
     echo Build completed on date
     echo Pushing the Docker image...
-    docker push public.ecr.aws/q9r3s5p8/<NAME OF YOUR IMAGE FILE>:latest
+    docker push public.ecr.aws/q9r3s5p8/afriendflask:latest
 
 artifacts:
     files: imagedefinitions.json
