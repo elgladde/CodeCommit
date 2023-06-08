@@ -1,0 +1,6 @@
+[
+    {
+        "name": "<NAME OF YOUR CONTAINER>",
+        "imageUri": "public.ecr.aws/q9r3s5p8/<ajenemy/flask_app>:latest"
+    }
+]
